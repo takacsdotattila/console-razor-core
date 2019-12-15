@@ -1,0 +1,7 @@
+﻿@inject RazorConsole.EmailReportGenerator ReportGenerator
+@model RazorConsole.Model.EmailModel
+    This is the partial view content.
+<br />
+@ReportGenerator.GenerateReport(Model.UserData1, Model.UserData2).
+
+<br />

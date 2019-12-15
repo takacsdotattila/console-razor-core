@@ -1,0 +1,14 @@
+﻿@model RazorConsole.Model.EmailModel
+<!DOCTYPE html>
+
+<html>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        Thanks,<br />
+        @Model.Sender
+    </footer>
+</body>
+</html>
